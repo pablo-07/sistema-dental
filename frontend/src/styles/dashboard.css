@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+  .content {
+    padding-left: 50px;
+  }
+
+  .content h1{
+    font-size: 23px;
+  }
+  .content h2{
+    font-size: 20px;
+  }
+  
+
+  .imgs{
+    padding-bottom: 300px;
+  }
+
+  .Logo {
+    max-width: 30vh;
+    max-height: 30vh;
+  }
+
+  /* Agrega estilos adicionales según sea necesario */
+}
+
+#containerDashboard{
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  background-color: white;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contentDashboard{
+  width: 80%; /* Porcentaje del ancho del contenedor principal */
+  margin-left: 15%; /* Margen izquierdo en relación con el ancho del contenedor */
+}
+
+h1{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 20px;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+} 
+
+.imgs{
+  justify-content: center;
+  display: flex;
+  margin: 30px;
+}
+.Logo{
+    height: 50vh;
+    width: 50vh;
+
+  }
+
+
+

@@ -1,0 +1,43 @@
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+    .contentEspecialidades {
+      width: 100%;
+    }
+  
+    
+  }
+  
+  /* Estilos para pantallas más grandes (por ejemplo, escritorios) */
+  .contentEspecialidades {
+    width: 80%; /* Porcentaje del ancho del contenedor principal */
+    margin-left: 20%; /* Margen izquierdo en relación con el ancho del contenedor */
+  }
+
+
+#tituloEspecialidades{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 30px;
+}
+
+#tabla{
+    margin-top: 30px;
+}
+
+#btn-editar{
+    font-size: 2em;
+    color: #114CA0;
+    cursor: pointer;
+}
+#btn-eliminar{
+    font-size: 2em;
+    color: #CB0202;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.ModalAgregar{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}

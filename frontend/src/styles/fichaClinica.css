@@ -1,0 +1,35 @@
+@media (max-width: 768px) {
+    /* Estilos para pantallas más pequeñas (por ejemplo, dispositivos móviles) */
+    .contentFichaClinica {
+      width: 100%;
+    }
+  
+    
+  }
+  
+  /* Estilos para pantallas más grandes (por ejemplo, escritorios) */
+  .contentFichaClinica {
+    width: 80%; /* Porcentaje del ancho del contenedor principal */
+    margin-left: 20%; /* Margen izquierdo en relación con el ancho del contenedor */
+  }
+
+
+.tituloFichaClinica{
+align-items: flex-start;
+display: flex;
+color: #777777;
+}
+
+.subtitulo{
+  align-items: flex-start;
+  display: flex;
+  color: #777777;
+}
+
+.botones{
+  padding-top: 30px;
+}
+
+.botones Button{
+  margin-right: 10px;
+}

@@ -1,0 +1,15 @@
+/* Agrega este estilo para filas inactivas */
+.row-inactivo {
+    background-color: red;
+  }
+  
+  /* Agrega este estilo para el texto de estado inactivo */
+  .texto-inactivo {
+    color: red;
+  }
+  
+  /* Agrega este estilo para el texto de estado activo */
+  .texto-activo {
+    color: green;
+  }
+
